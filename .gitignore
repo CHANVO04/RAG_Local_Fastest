@@ -1,0 +1,34 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Environment files
+.env
+
+# Streamlit secrets
+.streamlit/secrets.toml
+
+# Local data
+data/*
+!data/.gitkeep
+
+# Vector store and generated files
+vector_store/*
+!vector_store/.gitkeep
+
+# OS / Editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Logs / temp
+*.log
+*.tmp
