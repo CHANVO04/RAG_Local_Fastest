@@ -83,3 +83,15 @@ RAG_Local_Fastest/
 │
 ├── docs/
 └── assets/
+
+---
+
+## Bắt đầu nhanh (Quick Start)
+
+Làm theo các bước dưới đây để thiết lập môi trường và khởi chạy dự án trên máy tính của bạn:
+
+**Bước 1: Clone dự án về máy**
+Mở terminal và chạy lệnh sau để tải source code:
+```bash
+git clone [https://github.com/CHANVO04/RAG_Local_Fastest.git](https://github.com/CHANVO04/RAG_Local_Fastest.git)
+cd RAG_Local_Fastest
