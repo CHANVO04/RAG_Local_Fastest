@@ -87,10 +87,9 @@ RAG_Local_Fastest/
 
 ## Bắt đầu nhanh (Quick Start) trên Window
 Setup:
-Bạn hãy cài đặt Python từ 8 trở lên (https://www.python.org/downloads/windows/)
-Tải git
-Sau đó mở Window PowerShell và
-Làm theo các bước dưới đây để thiết lập môi trường và khởi chạy dự án trên máy tính của bạn:
+- Bạn hãy cài đặt Python từ 8 trở lên (https://www.python.org/downloads/windows/)
+- Tải git
+-Sau đó mở Window PowerShell và làm theo các bước dưới đây để thiết lập môi trường và khởi chạy dự án trên máy tính của bạn:
 ```bash
 Bước 1: Lấy dự án về từ github
 git clone https://github.com/CHANVO04/RAG_Local_Fastest.git
