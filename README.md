@@ -106,4 +106,4 @@ Bước 4: Cấu hình biến môi trường (API Key)
 Đoạn mã
 OPENAI_API_KEY=sk-xxxxxxxxxxxxxxxxxxxxxxxxxxxx
 Bước 5: Khởi chạy ứng dụng
-streamlit run app.py
+streamlit run app.py (Sau đó nhấn enter để tiếp tục)
