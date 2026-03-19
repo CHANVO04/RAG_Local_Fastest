@@ -63,7 +63,7 @@ Project phù hợp cho:
 ---
 
 ## Cấu trúc thư mục
-
+```test
 RAG_Local_Fastest/
 ├── app.py
 ├── Ingest_Local_Fastest.py
@@ -82,7 +82,7 @@ RAG_Local_Fastest/
 │
 ├── docs/
 └── assets/
-
+```
 ---
 
 ## Bắt đầu nhanh (Quick Start) trên Window
@@ -91,23 +91,19 @@ Bạn hãy cài đặt Python từ 8 trở lên (https://www.python.org/download
 Tải git
 Sau đó mở Window PowerShell và
 Làm theo các bước dưới đây để thiết lập môi trường và khởi chạy dự án trên máy tính của bạn:
-
-**Bước 1: Clone dự án về máy**
-Mở terminal và chạy lệnh sau để tải source code:
 ```bash
 Bước 1: Lấy dự án về từ github
 git clone https://github.com/CHANVO04/RAG_Local_Fastest.git
 cd RAG_Local_Fastest
 Bước 2: Cài môi trường ảo:
-
 python -m venv .venv
 .venv\Scripts\activate.bat
 Bước 3: Cài đặt các thư viện phụ thuộc
 pip install -r requirements.txt
 Bước 4: Cấu hình biến môi trường (API Key)
 4.1) Tìm file .env.example trong thư mục dự án.
-4.2) ổi tên file này thành .env (hoặc copy/paste ra một file mới tên .env).
-4.3)Mở file .env bằng trình chỉnh sửa văn bản và thêm API Key của OpenAI vào:
+4.2) Đổi tên file này thành .env (hoặc copy/paste ra một file mới tên .env).
+4.3)Mở file .env bằng trình chỉnh sửa văn bản (vd NotePad) và thêm API Key của OpenAI vào:
 Đoạn mã
 OPENAI_API_KEY=sk-xxxxxxxxxxxxxxxxxxxxxxxxxxxx
 Bước 5: Khởi chạy ứng dụng
