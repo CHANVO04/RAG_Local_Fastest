@@ -110,3 +110,5 @@ Bước 4: Cấu hình biến môi trường (API Key)
 4.3)Mở file .env bằng trình chỉnh sửa văn bản và thêm API Key của OpenAI vào:
 Đoạn mã
 OPENAI_API_KEY=sk-xxxxxxxxxxxxxxxxxxxxxxxxxxxx
+Bước 5: Khởi chạy ứng dụng
+streamlit run app.py
