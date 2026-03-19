@@ -85,8 +85,11 @@ RAG_Local_Fastest/
 
 ---
 
-## Bắt đầu nhanh (Quick Start)
-
+## Bắt đầu nhanh (Quick Start) trên Window
+Setup:
+Bạn hãy cài đặt Python từ 8 trở lên (https://www.python.org/downloads/windows/)
+Tải git
+Sau đó mở Window PowerShell và
 Làm theo các bước dưới đây để thiết lập môi trường và khởi chạy dự án trên máy tính của bạn:
 
 **Bước 1: Clone dự án về máy**
@@ -96,12 +99,9 @@ Bước 1: Lấy dự án về từ github
 git clone https://github.com/CHANVO04/RAG_Local_Fastest.git
 cd RAG_Local_Fastest
 Bước 2: Cài môi trường ảo:
-2.1) Window
+
 python -m venv .venv
-.venv\Scripts\activate
-2.2) macOS/Linux
-python3 -m venv .venv
-source .venv/bin/activate
+.venv\Scripts\activate.bat
 Bước 3: Cài đặt các thư viện phụ thuộc
 pip install -r requirements.txt
 Bước 4: Cấu hình biến môi trường (API Key)
